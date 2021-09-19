@@ -9,7 +9,7 @@ $ docker run --rm -e USER=$USER -it -w /app -v $(pwd):/app rust:1.30.1
 cargo実行
 
 ```
-$ ust-app
+$ rust-app
 $ cargo run --release
 
    Compiling hello-rust v0.1.0 (/app/hello-rust)
